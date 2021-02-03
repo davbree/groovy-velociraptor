@@ -8,7 +8,7 @@ export default class Page extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
-            <div className="outer">
+            <div className="outer">aaa
               <div className="inner-medium">
                 <article className="post post-full">
                   <header className="post-header">
