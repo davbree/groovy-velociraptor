@@ -8,7 +8,7 @@ export default class Landing extends React.Component {
         return (
             <Layout {...this.props}>
                 <h1>aaaa!!</h1>
-                <
+                <p
             {_.map(_.get(this.props, 'page.frontmatter.sections', null), (section, section_idx) => {
                 let component = _.upperFirst(_.camelCase(_.get(section, 'type', null)));
                 let Component = components[component];
